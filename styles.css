@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(img/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+.calculator {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 370px;
+    height: 565px;
+    background: rgba(17, 17, 17, 0.116);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+}
+
+.display {
+    background: rgba(17, 17, 17, 0.116);
+    color: #ffffff;
+    font-size: 2.5em; 
+    padding: 20px;
+    text-align: right;
+    border-radius: 15px; 
+    margin: 20px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+ 
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 15px; 
+}
+
+.btn {
+    background: rgba(17, 17, 17, 0.116);
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5em;
+    width: 70px; 
+    height: 70px; 
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    color: #ffffff;
+}
+
+.btn-operation {
+    background-color: #ec9fde; 
+    color: #fff; 
+}
+
+.btn-special {
+    background-color: #ec9fde; 
+    color: #fff; 
+}
+
+.btn:hover {
+    background-color: #eb75d5;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); 
+    transform: scale(1.1); 
+}
+
+.btn:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1); 
+}
+
+.btn-equal {
+    grid-column: span 2; 
+    height: 70px; 
+    border-radius: 10px; 
+    background-color: #ec9fde; 
+    color: rgb(255, 252, 252);
+    width: 130px;
+    font-size: 2em; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.btn-equal:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.479); 
+    transform: scale(1); 
+}
+
+.btn-equal:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    transform: scale(1); 
+}
