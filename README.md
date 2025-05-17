@@ -1,5 +1,5 @@
 # CalculadoraJS
-![calc](https://github.com/user-attachments/assets/1f8bb80c-028d-4919-832a-cf32c4251d3e)
+![image](https://github.com/user-attachments/assets/3ce56f27-1bee-4571-9d6f-5a9cf710273d)
 ## Sobre
 CalculadoraJS é uma calculadora simples desenvolvida em JavaScript, HTML e CSS. Ela permite realizar operações básicas como soma, subtração, multiplicação, divisão e cálculo de porcentagem. O projeto foca em uma interface limpa e funcionalidades práticas, como limitação da entrada, prevenção de múltiplos pontos decimais e possibilidade de apagar o último caractere digitado.
 
